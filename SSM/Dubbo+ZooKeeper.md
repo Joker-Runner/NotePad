@@ -41,7 +41,7 @@ clientPort=2181
 ./zookeeper.sh stop
 ```
 
-5. 前台启动zookeeper，方便查看日志
+5. **前台启动zookeeper，方便查看日志**
 
 ```shell
 zkServer.sh start-foreground
@@ -49,7 +49,7 @@ zkServer.sh start-foreground
 
 ## 二、Dubbo
 
-1. 
+提供服务的远程调用
 
 ## 二、步骤
 

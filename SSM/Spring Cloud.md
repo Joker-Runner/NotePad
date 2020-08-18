@@ -1,0 +1,3 @@
+Spring Cloud抛弃了Dubbo的RPC通信，采用基于HTTP的REST方式
+
+一定程度上牺牲了服务调用的性能，但因为没有了代码强依赖，更加灵活

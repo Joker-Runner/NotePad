@@ -63,7 +63,15 @@ Autowired首先通过Type装配；Resource优先使用Name装配；
 
 
 
+## 8、其它
 
+1. @Value注解可以读取spring配置文件的值
+
+```java
+import org.springframework.beans.factory.annotation.Value;
+@Value("${redis.key.expire.authCode}")
+private Long AUTH_CODE_EXPIRE_SECONDS;
+```
 
 
 
